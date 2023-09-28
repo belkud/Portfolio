@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  /* display: flex; */
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  /* background-color: gray; */
+}
+
+/* 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -21,17 +31,10 @@ a {
 }
 a:hover {
   color: #535bf2;
-}
+} */
 
-body {
-  margin: 0;
-  /* display: flex; */
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: gray;
-}
 
+/* 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -95,4 +98,19 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+
+
+
+
+
+.btn {
+  background-color: blue;
+  margin: 10px;
+  color: aliceblue;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  
 }
