@@ -56,11 +56,10 @@ header {
   font-weight:700;
   display: flex;
   justify-content: center;
-  /* font-family:Tahoma; */
-  /* font-style: italic; */
+ 
 }
 .wrapper_header_up {
-/* color: violet; */
+/* color: aqua; */
 }
 .wrapper_header_down {
 /* color: green; */
@@ -81,27 +80,54 @@ margin-left: -20px;
 
 }
 
-.main_menu {
-  background-color: grey;
+.about {
+  background-color: gray;
   height: 100vh;
+  padding-top: 300px;
   
 }
 
 img {
   width: 25%;
-  border: 15px solid rgb(231, 228, 228);
   border-radius: 50%;
-  margin-top:-120px;
+  border: 15px solid rgb(231, 228, 228);
 }
 
 .portPhoto {
   width: 100%;
+  margin-top:-120px;
   text-align: center;
   z-index: 1;
   position:absolute;
   vertical-align: center;
-
+  filter: grayscale(0.4);
 }
+
+
+.content {
+  border:  1px solid red;
+}
+
+
+.skills {
+  height: 100vh;
+  background-color: aliceblue;
+  opacity: 0.3;
+}
+.resume {
+  height: 100vh;
+  background-color: gray;
+}
+.services {
+  height: 100vh;
+  background-color: aliceblue;
+}
+.contacts {
+  height: 100vh;
+  background-color: gray;
+}
+
+
 
 
 
