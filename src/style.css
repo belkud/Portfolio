@@ -21,25 +21,64 @@ body {
   height: 100%;
 }
 header {
+  display: flex;
+  justify-content:space-between;
   background-color: rgb(26, 19, 53) ;
-  padding: 15px;
   color: rgb(150, 138, 197);
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
 }
+.navbar {
+  margin: 0px;
+  padding: 10px 26px;
+}
+.navbar_first {
+  padding: 10px 780px  10px 25px;
+}
+.navbar:hover {
+  color:lightgrey;
+  transition: 1s;
+}
+
 
 .wrapper_header {
   opacity: 0.6;
-  background-color: grey;
+  background-color:black;
   height: 100vh;
   text-align: center;
+  filter: grayscale(50%)
 }
-.wrapper_header_name{
-  margin-top: 300px;
-  color: aliceblue;
+.wrapper_header_abbreviation{
+  padding-top: 150px;
+  color:white;
   font-size: 5em;
   font-weight:700;
+  display: flex;
+  justify-content: center;
+  /* font-family:Tahoma; */
+  /* font-style: italic; */
+}
+.wrapper_header_up {
+/* color: violet; */
+}
+.wrapper_header_down {
+/* color: green; */
+margin-top: 25px;
+margin-left: -20px;
+}
+
+.wrapper_header_name{
+  padding-top: 50px;
+  color: white;
+  font-size: 5em;
+  font-weight:700;
+}
+.wrapper_header_logo{
+  color: white;
+  font-size: 3em;
+  font-weight:700;
+
 }
 
 .main_menu {
@@ -48,9 +87,21 @@ header {
   
 }
 
+img {
+  width: 25%;
+  border: 15px solid rgb(231, 228, 228);
+  border-radius: 50%;
+  margin-top:-120px;
+}
 
+.portPhoto {
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  position:absolute;
+  vertical-align: center;
 
-
+}
 
 
 
