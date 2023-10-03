@@ -79,7 +79,7 @@ margin-left: -20px;
 
 }
 
-img {
+.myPhoto{
   width: 25%;
   border-radius: 50%;
   border: 15px solid rgb(231, 228, 228);
@@ -119,7 +119,7 @@ img {
 
 .content_title2 {
   color: aqua;
-  margin: 10px 50px;
+  margin: 5px 50px;
   font-size: 2em;
   padding: 10px;
 }
@@ -135,6 +135,27 @@ img {
   padding: 5px 20px;
   font-size: 1.2em;
 }
+
+/* .content_link {
+color: aqua;
+} */
+
+
+/* .logo {
+  width: 25%;
+  border: 1px solid red;
+  background-color:opacity;
+} */
+
+
+.btn {
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  padding: 5px 20px;
+  margin: 5px 100px;
+}
+
 
 .skills {
   height: 100vh;
