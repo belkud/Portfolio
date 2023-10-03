@@ -1,10 +1,11 @@
 import './style.css'
 
 
-let mouseCoordinate = document.querySelector('.container') as HTMLDivElement
-mouseCoordinate.addEventListener ('click', function(event){
-    innerHTML(`${event.pageY}`);
+let scroll = document.querySelectorAll('.navbar') 
+scroll.forEach(navbar=>
+    navbar.addEventListener ('click', function(event){
+    console.log(`${event.pageY}`);
 
-})
+}))
 
  
