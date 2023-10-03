@@ -96,10 +96,11 @@ margin-left: -20px;
 }
 
 .about {
-  background:
-  url('http://top-fon.com/uploads/posts/2022-09/1663550091_30-top-fon-com-p-sine-serii-fon-odnotonnii-foto-33.jpg');
+  /* background:
+  url('http://top-fon.com/uploads/posts/2022-09/1663550091_30-top-fon-com-p-sine-serii-fon-odnotonnii-foto-33.jpg'); */
+  background: linear-gradient(to bottom right,black, lightblue);
   height: 68vh;
-  padding-top: 200px;
+  padding-top: 300px;
   /* margin-bottom: -200px; */
 }
 
