@@ -12,6 +12,7 @@ body {
   /* url('https://s1.1zoom.ru/big0/430/Laptops_Smartphone_Notebooks_Table_568319_1280x853.jpg'); */
   /* url('https://static.giga.de/wp-content/gallery/hp-spectre-13-2016/hp-spectre-13-01.jpg'); */
   background-size:cover;
+  /* scroll-behavior: smooth; */
 }
 
 .container {
