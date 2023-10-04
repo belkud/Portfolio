@@ -31,7 +31,6 @@ header {
   display: flex;
   justify-content:space-between;
   background-color: rgb(26, 19, 53) ;
-  color: rgb(150, 138, 197);
   position: fixed;
   z-index: 2;
   width: 100%;
@@ -39,21 +38,24 @@ header {
 .navbar_first {
   flex: 10;
   padding: 10px 50px;
+  color: rgb(150, 138, 197);
 }
 .navbar {
   margin: 0px;
   padding: 10px;
   flex: 1;
 }
-.navbar:hover {
+
+a {
+  scroll-behavior: smooth;
+  color: rgb(150, 138, 197);
+  text-decoration: none;
+}
+a:hover {
   color:lightgrey;
   transition: 1s;
 }
 
-a {
-  scroll-behavior: smooth;
-  color: red;
-}
 
 .wrapper_header {
   opacity: 0.6;
@@ -114,15 +116,15 @@ margin-left: -20px;
   /* background:
   url('http://top-fon.com/uploads/posts/2022-09/1663550091_30-top-fon-com-p-sine-serii-fon-odnotonnii-foto-33.jpg'); */
   background: linear-gradient(to bottom right,black, lightblue);
-  height: 68vh;
+  height: 60vh;
   padding-top: 300px;
   /* margin-bottom: -200px; */
 }
 
 .content_title {
   color: aqua;
-  font-size: 3em;
-  margin: 10px 50px;
+  font-size: 2.5em;
+  margin: 0px 50px;
 }
 .content {
   color: white;
@@ -135,7 +137,7 @@ margin-left: -20px;
 
 .content_title2 {
   color: aqua;
-  margin: 5px 50px;
+  margin: 0px 50px;
   font-size: 2em;
   padding: 10px;
 }
@@ -178,17 +180,14 @@ color: aqua;
   background-color: aliceblue;
   opacity: 0.3;
 }
-.resume {
+.projects {
   height: 100vh;
   background-color: gray;
 }
-.services {
-  height: 100vh;
-  background-color: aliceblue;
-}
+ 
 .contacts {
   height: 100vh;
-  background-color: gray;
+  background-color: aliceblue;
 }
 
 
