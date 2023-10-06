@@ -283,7 +283,7 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   filter: grayscale(0.8);
   /* text-align: center; */
   color: white;
-  font-size:  2em;
+  font-size:  1.3em;
   justify-content: center;
   position: relative;
   background-color: aqua;
@@ -311,7 +311,7 @@ z-index: 1;
   margin: 50px;
   /* border: 2px solid red; */
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .contacts_container>h6 {
   text-align: center;
@@ -327,6 +327,7 @@ z-index: 1;
 
 .content_left {
   flex: 2;
+  margin-top: 50px;
 }
 .content_left>div {
   padding: 20px;
@@ -334,15 +335,31 @@ z-index: 1;
 
 .content_right {
   flex: 3;
-  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
 }
 
 .content_right>div {
   padding: 20px;
 }
 
+.user_text {
+  border: none;
+  border-bottom: 2px solid aqua;
+  background-color: transparent;
+  color:  white;
+  padding: 20px;
+}
 
+.user_text::placeholder {color: white;}
 
+.button_send {
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  opacity: 0.6;
+  width: 120px;
+}
 
 
 
