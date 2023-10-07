@@ -361,7 +361,7 @@ z-index: 1;
 
 .projects_content {
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid red; */
  }
  
  .projects_box {
@@ -373,24 +373,33 @@ z-index: 1;
   width: 100px;
   color: azure;
   font-size: 1.2em;
+  
 }
 
 .projects_box:hover {
   color: rgb(109, 109, 187);
   transition: 0.5s;
+  
 }
 
-.ball>img {
-  /* border: 2px solid red; */
+.project_ball>img {
   border-radius: 50%;
   width: 80px;
 }
-.ball>img:hover {
+.project_ball>img:hover {
   rotate: 360deg;
   transition: 1s;
 }
 
-.bootstrap>img {
+.project_bootstrap>img {
   width: 80px;
 }
 
+.project_design>img {
+  width: 100px;
+  background: transparent;
+  /* padding: 10px; */
+  /* border: 2px solid red; */
+}
+
+ 
