@@ -218,9 +218,11 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   border-radius: 2px;
   /* position: absolute; */
   /* background-repeat:repeat-x; */
-  /* overflow-x: ; */
+   
+  background-repeat:space;
 }
 
+ 
 .battery::after {
   content: '';
   background-color: rgb(134, 164, 174);
@@ -380,8 +382,7 @@ z-index: 1;
   height: 100px;
   width: 100px;
   background-image:url(adaptiv.png)  ;
-  background-position: 10% 10%;
-  background-size: 100px 100px;
+  /* background-position: 10% 10%; */
   background-size: 102px 80px;
   background-repeat:no-repeat;
 }
