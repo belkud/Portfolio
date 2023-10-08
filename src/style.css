@@ -350,7 +350,7 @@ z-index: 1;
   height: 100vh;
   background: linear-gradient(to bottom right,black, lightblue);
 }
- 
+
 .projects>h1 {
   color:aliceblue;
   text-align: center;
@@ -362,18 +362,28 @@ z-index: 1;
 .projects_content {
   display: flex;
   /* border: 2px solid red; */
- }
- 
- .projects_box {
+}
+
+.projects_box {
   margin-left: 50px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* border: 2px solid red; */
   width: 100px;
   color: azure;
   font-size: 1.2em;
+    /* border: 2px solid red; */
   
+}
+
+.project_design {
+  height: 100px;
+  width: 100px;
+  background-image:url(adaptiv.png)  ;
+  background-position: 10% 10%;
+  background-size: 100px 100px;
+  background-size: 102px 80px;
+  background-repeat:no-repeat;
 }
 
 .projects_box:hover {
@@ -397,9 +407,8 @@ z-index: 1;
 
 .project_design>img {
   width: 100px;
-  background: transparent;
-  /* padding: 10px; */
-  /* border: 2px solid red; */
+ 
 }
+
 
  
