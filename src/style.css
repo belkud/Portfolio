@@ -300,7 +300,7 @@ z-index: 1;
 }
 .contacts_container>h6 {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 180px;
   font-size: 0.6em;
 }
 
@@ -398,8 +398,9 @@ z-index: 1;
   width: 80px;
 }
 .project_ball>img:hover {
+  /* box-shadow: 5px 5px 5px lightblue; */
   rotate: 360deg;
-  transition: 1s;
+  transition: 3s;
 }
 
 .project_bootstrap>img {
