@@ -199,35 +199,61 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
 }
 
 
+.battery_position {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 1.4em;
+  /* font-weight:500; */
+  gap: 30px;
+  position: relative;
+  padding-top: 20px;
+  /* border: 2px solid red; */
+}
 
 .battery {
-  background: linear-gradient(to top right,black, lightblue);
-  /* position: relative; */
-  border: red 2px solid;
-  width: 250px;
-  padding: 15px 0px;
+  position: relative;
+  /* background: linear-gradient(to top right,black, lightblue); */
+  /* background:url("Background_battery.png"); */
+  border: aliceblue 1px solid;
+  width: 249px;
+  height: 32px;
+  padding: 14px 0px;
   border-radius: 5px;
 }
 
+.imgbattery {
+  margin-top: 3px;
+  position: absolute;
+  width: 250px;
+  /* height: ; */
+}
+
+
+/* 
 .battery::before {
   content: '';
-  background-color: lightgray;
-  margin: 5px;
-  padding: 12px 5px;
-  border-radius: 2px;
-  /* position: absolute; */
-  /* background-repeat:repeat-x; */
+  background-color: blue;
+  margin-left: 254px;
+  padding: 18px 1px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-repeat:repeat-x;
    
   background-repeat:space;
-}
+}  */
 
  
 .battery::after {
   content: '';
-  background-color: rgb(134, 164, 174);
-  padding: 4px;
-  margin-left: 92%;
-  border: red 2px solid;
+  /* background-color: rgb(134, 164, 174); */
+  padding: 3px;
+  position: absolute;
+  margin-left: 100%;
+  height: 20px;
+  margin-top: 1px;
+  border: aliceblue 1px solid;
   border-left: none;
   border-radius: 0px 5px 5px 0px;
 }
@@ -245,17 +271,6 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   color: white;
   display: flex;
   justify-content:space-around;
-}
-
-.battery_position {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: white;
-  font-size: 1.4em;
-  /* font-weight:500; */
-  gap: 30px;
-  padding-top: 20px;
 }
  
  
