@@ -216,20 +216,33 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   position: relative;
   /* background: linear-gradient(to top right,black, lightblue); */
   /* background:url("Background_battery.png"); */
-  border: aliceblue 1px solid;
+  border: aquamarine 1px solid;
   width: 249px;
   height: 32px;
   padding: 14px 0px;
   border-radius: 5px;
+}
+.digitals {
+  margin-top: 20px;
 }
 
 .imgbattery {
   margin-top: 3px;
   position: absolute;
   width: 250px;
-  /* height: ; */
+  animation: text-anim 5.5s ease-in-out forwards;
+  min-height: 61px !important;
 }
 
+@keyframes text-anim {
+  from{
+    margin-left: -100px;
+    /* width: 0; */
+  }
+  to {
+    /* min-height: 61px !important; */
+  }
+}
 
 /* 
 .battery::before {
@@ -253,10 +266,12 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   margin-left: 100%;
   height: 20px;
   margin-top: 1px;
-  border: aliceblue 1px solid;
+  border: aquamarine 1px solid;
   border-left: none;
   border-radius: 0px 5px 5px 0px;
 }
+
+
 
 
 .skills_title {
