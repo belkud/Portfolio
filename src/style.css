@@ -212,6 +212,10 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   /* border: 2px solid red; */
 }
 
+.battery_position img {
+  height: 56px;
+}
+
 .battery {
   position: relative;
   /* background: linear-gradient(to top right,black, lightblue); */
@@ -236,7 +240,8 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
 
 @keyframes text-anim {
   from{
-    margin-left: -100px;
+    margin-left: -50px;
+    opacity:0
     /* width: 0; */
   }
   to {
