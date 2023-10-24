@@ -1,13 +1,21 @@
 import './style.css'
 
 
+const options = {
+    treshold: 1,
+    rootMargin: '-50px 0px'
+}
 
+const battery = document.querySelectorAll('.imgbattery') as NodeListOf<HTMLDivElement>
 
-let battery = document.querySelector('.imgbattery') as HTMLDivElement
-let nums = document.querySelector('.digitals') as HTMLDivElement
-let num = nums.innerHTML
- battery.style.color = 'red'
- battery.style.transition = 5+'s'
-// battery.style.width += num*10+'px'
-console.log(`${nums.style.width} +'px'`);
-console.log(num);
+const observer = new IntersectionObserver((entries, observer)=>{
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            console.log(entry.target)
+          entry.target.classList.add('anim')
+          observer.unobserve(entry.target)
+        }
+      })
+},options)
+
+battery.forEach((el)=>observer.observe(el))
