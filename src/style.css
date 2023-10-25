@@ -39,11 +39,13 @@ header {
   flex: 10;
   padding: 10px 50px;
   color: rgb(150, 138, 197);
+  text-shadow: 0px 0px 10px white;
 }
 .navbar {
   margin: 0px;
   padding: 10px;
   flex: 1;
+  
 }
 
 a {
@@ -54,6 +56,7 @@ a {
 a:hover {
   color:lightgrey;
   transition: 1s;
+  text-shadow: 0px 0px 10px white;
 }
 
 
@@ -71,13 +74,14 @@ a:hover {
   font-weight:700;
   display: flex;
   justify-content: center;
- 
+  text-shadow: 0px 0px 15px white;
+  
 }
 .wrapper_header_up {
-/* color: aqua; */
+  /* color: aqua; */
 }
 .wrapper_header_down {
-/* color: green; */
+  /* color: green; */
 margin-top: 25px;
 margin-left: -20px;
 }
@@ -87,12 +91,13 @@ margin-left: -20px;
   color: white;
   font-size: 5em;
   font-weight:700;
+  text-shadow: 0px 0px 15px white;
 }
 .wrapper_header_logo{
   color: white;
   font-size: 3em;
-  font-weight:700;
-
+  font-weight:700;  
+  text-shadow: 0px 0px 15px white;
 }
 
 .myPhoto{
@@ -119,9 +124,10 @@ margin-left: -20px;
 }
 
 .content_title {
-  color: rgb(26, 19, 53);
+  color: rgb(19, 2, 88);
+  text-shadow: 0px 0px 15px white;
   font-size: 2.5em;
-  margin: 0px 50px;
+  margin: -10px 50px;
 }
 .content {
   color: white;
@@ -133,7 +139,8 @@ margin-left: -20px;
 }
 
 .content_title2 {
-  color: rgb(26, 19, 53);
+  color: rgb(19, 2, 88);
+  text-shadow: 0px 0px 15px white;
   margin: 0px 50px;
   font-size: 2em;
   padding: 10px;
@@ -178,7 +185,8 @@ color: aqua;
   background-image: 
 url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fon-dlya-prezentatsii-programmirovanie-76.jpg);
 /* url(https://www.youtube.com/watch?v=Qm-5u8e4Ct0); */
-
+  /* color: rgb(19, 2, 88) !important; */
+  text-shadow: 0px 0px 15px white;
   background-size:cover;
   background-attachment: fixed;
   /* background-color:black; */
@@ -268,11 +276,17 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   border-radius: 0px 5px 5px 0px;
 }
 
-
+.remove_battery {
+  position: absolute; 
+  top: 46px;
+  height: 58px; 
+  overflow: hidden;
+}
 
 
 .skills_title {
-  color: white;
+  color: rgb(246, 244, 244);
+  /* color: rgb(19, 2, 88); */
   margin: 0;
   text-align: center;
   font-size: 2em;
@@ -284,10 +298,16 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   display: flex;
   justify-content:space-around;
 }
- 
- 
- #airplane {
+
+#planet {
+   box-shadow: 0px 0px 25px rgb(180, 245, 245);
+  border-radius: 50%;
+}
+
+#airplane {
   animation: airplane 10s linear   infinite ;
+  margin-top: -9px;
+  margin-left: -8px;
  }
 
  @keyframes airplane {
@@ -315,6 +335,7 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   justify-content: center;
   position: relative;
   background-color: aqua;
+  text-shadow:  0px 0px 10px aqua;
 }
 
 
@@ -377,6 +398,7 @@ z-index: 1;
   background-color: transparent;
   color:  white;
   padding: 20px;
+  text-shadow: 0px 0px 10px aqua;
 }
 
 .user_text::placeholder {color: white;}
@@ -388,12 +410,15 @@ z-index: 1;
   background-color: lightgrey;
   opacity: 0.6;
   width: 120px;
+  box-shadow: 0px 0px 10px aqua;
 }
 
 
 .projects {
   height: 100vh;
   background: linear-gradient(to bottom right,black, lightblue);
+  color: rgb(150, 138, 197);
+  text-shadow: 0px 0px 5px rgb(175, 219, 219);
 }
 
 .projects>h1 {
@@ -456,4 +481,9 @@ z-index: 1;
 }
 
 
- 
+.project_site {
+  width: 100px;
+  height: 100px;
+  margin-top: -100px;
+  z-index: 2;
+}
