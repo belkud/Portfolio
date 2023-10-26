@@ -23,9 +23,9 @@ body {
 }
 
 
-.eye {
+#eye {
 
-  animation: anim3 5.5s ease-in-out forwards;
+  animation: anim3 5.5s ease-in-out infinite;
 }
 @keyframes anim3 {
   from {
