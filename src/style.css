@@ -526,13 +526,13 @@ z-index: 1;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   #home {
     font-size: .3 em; 
 
   }
   header {
-   display: none; 
+   /* display: none;  */
   }
 
 
