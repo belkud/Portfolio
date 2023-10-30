@@ -526,10 +526,18 @@ z-index: 1;
 }
 
 
-@media screen and (max-width: 600px) {
-   /* header { */
+@media screen and (max-width: 768px) {
+  #home {
+    font-size: .3 em; 
+
+  }
+  header {
    /* display: none;  */
-  /* } */
+  }
+
+
+
+
   /* header2 {
     display: flex;
   }
