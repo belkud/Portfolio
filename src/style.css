@@ -378,8 +378,9 @@ z-index: 1;
 }
 .contacts_container>h6 {
   text-align: center;
-  margin-top: 180px;
+  margin-top: 90px;
   font-size: 0.6em;
+  color: aliceblue;
 }
 
 .contacts_content {
@@ -414,21 +415,26 @@ z-index: 1;
   color:  white;
   padding: 20px;
   text-shadow: 0px 0px 10px aqua;
+  margin-top: 10px;
 }
 
 .user_text::placeholder {color: white;}
 
 .button_send {
-  margin-top: 25px;
   margin-left: auto;
   border-radius: 5px;
-  background-color: white ;
-  /* color:aliceblue; */
-  opacity: 0.6;
+  color: white ;
+  background-color: gray;
+  border: 2px solid aliceblue;
   width: 120px;
-  box-shadow: 0px 0px 10px aqua;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px white;
 }
-
+.button_send:hover {
+  background-color: black;
+  transition: .5s;
+  box-shadow: 0px 0px 20px white;
+}
 
 .projects {
   height: 100vh;
