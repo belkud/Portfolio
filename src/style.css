@@ -527,9 +527,9 @@ z-index: 1;
 
 
 @media screen and (max-width: 600px) {
-   header {
-   display: none; 
-  }
+   /* header { */
+   /* display: none;  */
+  /* } */
   /* header2 {
     display: flex;
   }
