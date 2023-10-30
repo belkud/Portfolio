@@ -532,7 +532,7 @@ z-index: 1;
 
   }
   header {
-   /* display: none;  */
+   display: none; 
   }
 
 
