@@ -544,7 +544,7 @@ z-index: 1;
   #home {
     font-size: 0.5 em; 
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     
   }
   header {
@@ -553,12 +553,12 @@ z-index: 1;
 
 
   #about {
-    height: 100vh;
+    min-height: 100vh;
   }
 
-  
+
   #skills {
-    height: 100vh;
+    min-height: 100vh;
   }
   .content_skills {
     color: white;
@@ -568,7 +568,7 @@ z-index: 1;
   
 
  #projects {
-  height: 100vh;
+  min-height: 100vh;
  }
  .projects_content>div {
   display: flex;
@@ -580,7 +580,7 @@ z-index: 1;
 
 
 #contacts {
-  height: 100vh;
+  min-height: 100vh;
 }
 
   }
