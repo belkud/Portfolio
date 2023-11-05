@@ -1,6 +1,22 @@
 import './style.css'
 
 
+ 
+/* //! ящик с шириной экрана */
+
+
+const width_of_display = document.querySelector ('#width_of_display') as HTMLButtonElement
+window.addEventListener ('resize', ()=> {
+
+  let computedStyle = getComputedStyle(document.body)
+
+  width_of_display.innerHTML = 'ширина экрана ' + computedStyle.width 
+  
+})
+
+
+
+
 const options = {
     treshold: 1,
     rootMargin: '-50px 0px'
