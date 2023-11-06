@@ -664,7 +664,9 @@ padding-bottom: 50%;
   margin-left: 10% !important;
   margin-right: 3% !important;
 }
-
+.projects {
+  padding-bottom: 60%;
+  }
 }
 
 
@@ -697,7 +699,7 @@ padding-bottom: 50%;
   .skills {
     display: flex;
     flex-direction: column;
-    padding-bottom: 75%;
+    padding-bottom: 85%;
     /* padding-bottom: 90%; */
   }
   #content_skills {
