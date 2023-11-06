@@ -9,7 +9,7 @@ html {
 
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   /* display: flex; */
   align-items: center;
@@ -73,7 +73,9 @@ a:hover {
   background-color:black;
   height: 100vh;
   text-align: center;
-  filter: grayscale(50%)
+  filter: grayscale(50%);
+  display: flex;
+  flex-direction: column;
 }
 .wrapper_header_abbreviation{
   padding-top: 150px;
@@ -113,17 +115,17 @@ margin-left: -20px;
   width: 25%;
   border-radius: 50%;
   border: 15px solid rgb(231, 228, 228);
-
-  /* vertical-align: middle; */
+  display: flex;
+  
 }
 
 .portPhoto {
-  /* display: flex; */
-  /* justify-content: center; */
+  display: flex;
+  justify-content: center;
 /* border: 1px solid red; */
   width: 100%;
   min-width: 120px;
-  margin-top:-13%;
+  /* margin-top:-13%; */
   text-align: center;
   /* vertical-align: middle; */
   z-index: 1;
@@ -149,7 +151,7 @@ margin-left: -20px;
 .about_left {
   /* border:  1px solid red; */
   color: white;
-  padding-left: 8%;
+  /* padding-left: 8%; */
   font-size: 1.3em;
   line-height: 1.5em;
   text-indent:1.2em;
@@ -159,7 +161,7 @@ margin-left: -20px;
 .about_right {
   /* border:  1px solid red; */
   color: white;
-  padding-left: 8%;
+  /* padding-left: 8%; */
   font-size: 1.2em;
   line-height: 1.5em;
   text-indent:1.2em;
@@ -553,14 +555,14 @@ z-index: 1;
   }
   
   .about {
-    padding-bottom: 3%;
+    /* padding-bottom: 3%; */
   }
 
   .content_skills {
     display: flex;
     /* flex-direction: row; */
-    margin-left: 10% !important;
-    margin-right: 3% !important;
+    /* margin-left: 10% !important; */
+    /* margin-right: 3% !important; */
   }
 
 }
@@ -571,7 +573,7 @@ z-index: 1;
   #home {
     width: 100%;
     font-size: 0.77em;
-    padding-bottom: 45%;
+    /* padding-bottom: 45%; */
   }
   
   .myPhoto {
@@ -583,18 +585,18 @@ z-index: 1;
   
   .about {
     font-size: 0.8em;
-    padding-bottom: 68%;
+    /* padding-bottom: 68%; */
   }
   
   .skills {
-    padding-bottom: 30%; 
+    /* padding-bottom: 30%;  */
   }
 
 .content_skills {
   display: flex;
   flex-direction: row;
-  margin-left: 10% !important;
-  margin-right: 3% !important;
+  /* margin-left: 10% !important; */
+  /* margin-right: 3% !important; */
 }
 
 
@@ -606,14 +608,14 @@ z-index: 1;
  
 
  .projects {
-padding-bottom: 50%;
+/* padding-bottom: 50%; */
 }
 
 .projects_content {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 18%;
+  /* padding-left: 18%; */
  }
 
 
@@ -654,20 +656,20 @@ padding-bottom: 50%;
     margin-top:-12%;
 }
 .about {
-  padding-bottom: 85%;
+  /* padding-bottom: 85%; */
 }
 .skills {
-  padding-bottom: 75%;
+  /* padding-bottom: 75%; */
 }
 /* .battery_position   */
 .content_skills {
   display: flex;
   flex-direction: column;
-  margin-left: 10% !important;
-  margin-right: 3% !important;
+  /* margin-left: 10% !important; */
+  /* margin-right: 3% !important; */
 }
 .projects {
-  padding-bottom: 75%;
+  /* padding-bottom: 75%; */
   }
 }
 
@@ -676,32 +678,32 @@ padding-bottom: 50%;
   #home {
     width: 100%;
     font-size: 0.6em;
-    padding-bottom: 50%;
+    /* padding-bottom: 50%; */
   } 
 
   .wrapper_header_abbreviation {
     padding-top: 250px;
   }
   .portPhoto {
-    margin-left: 20%;
+    /* margin-left: 20%; */
   }
   .about {
     display: flex;
     flex-direction: column;
-    padding-bottom: 105%;
+    /* padding-bottom: 105%; */
   }
   .about_left>h2 {
     /* text-align: center; */
     /* padding-left: 30%; */
   }
   .about_right {
-    padding-left: 0%;
+    /* padding-left: 0%; */
   }
   
   .skills {
     display: flex;
     flex-direction: column;
-    padding-bottom: 85%;
+    /* padding-bottom: 85%; */
     /* padding-bottom: 90%; */
   }
   #content_skills {
