@@ -68,17 +68,17 @@ a:hover {
 }
 
 
-.wrapper_header {
+#home {
   opacity: 0.6;
   background-color:black;
   height: 100vh;
   text-align: center;
   filter: grayscale(50%);
   display: flex;
+  justify-content: center;
   flex-direction: column;
 }
 .wrapper_header_abbreviation{
-  padding-top: 150px;
   color:white;
   font-size: 5em;
   font-weight:700;
@@ -209,6 +209,8 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   height: 100vh;
   filter: grayscale(50%);
   border-bottom: 3px solid white;
+  display: flex;
+  flex-direction: column
 }
 
 .inside_flex {
@@ -648,7 +650,6 @@ z-index: 1;
     font-size: 0.6em;
   }
   .wrapper_header_abbreviation {
-    padding-top: 350px;
   }
   .myPhoto {
     width: 50%;
@@ -659,7 +660,7 @@ z-index: 1;
   /* padding-bottom: 85%; */
 }
 .skills {
-  /* padding-bottom: 75%; */
+ 
 }
 /* .battery_position   */
 .content_skills {
@@ -682,7 +683,6 @@ z-index: 1;
   } 
 
   .wrapper_header_abbreviation {
-    padding-top: 250px;
   }
   .portPhoto {
     /* margin-left: 20%; */
@@ -703,8 +703,7 @@ z-index: 1;
   .skills {
     display: flex;
     flex-direction: column;
-    /* padding-bottom: 85%; */
-    /* padding-bottom: 90%; */
+    height: 185vh;
   }
   #content_skills {
     display: flex;
