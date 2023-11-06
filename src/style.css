@@ -542,7 +542,7 @@ z-index: 1;
 
 @media screen and (max-width: 1000px) {
   #home {
-    border: 3px solid goldenrod;
+    border: 3px solid white;
     width: 100%;
     font-size: 0.77em;
     
@@ -596,6 +596,13 @@ z-index: 1;
     /* padding-bottom: 30%; */
     /* margin-bottom: 30%; */
   }
+  .myPhoto {
+    width: 50%;
+    border-radius: 50%;
+    border: 8px solid rgb(231, 228, 228);
+}
+
+
   }
 
   
