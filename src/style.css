@@ -542,9 +542,9 @@ z-index: 1;
 
 @media screen and (max-width: 1000px) {
   #home {
-    font-size: 0.5 em; 
+    border: 3px solid #d40f0f;
     width: 100%;
-    min-height: 100vh;
+    font-size: 0.77em;
     
   }
   header {
@@ -579,6 +579,8 @@ z-index: 1;
 }
 
 
+
+/* padding-bottom: 20%; */
 #contacts {
   min-height: 100vh;
 }
@@ -588,7 +590,12 @@ z-index: 1;
 
 
 @media screen and (max-width: 768px) {
- 
+  #home {
+    border: 3px solid #d40f0f;
+    width: 100%;
+    font-size: 0.6em;
+    padding-bottom: 10%;
+  }
   }
 
   
