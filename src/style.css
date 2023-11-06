@@ -599,7 +599,7 @@ z-index: 1;
   .myPhoto {
     width: 50%;
     border-radius: 50%;
-    border: 8px solid rgb(231, 228, 228);
+    border: 8px solid red;
 }
 
 
