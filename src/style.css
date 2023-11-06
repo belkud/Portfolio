@@ -632,9 +632,9 @@ z-index: 1;
   padding-bottom: 85%;
 }
 
-  }
+}
 
-  
+
 @media screen and (max-width: 460px) {
   #home {
     width: 100%;
@@ -647,11 +647,12 @@ z-index: 1;
   .about {
     display: flex;
     flex-direction: column;
+    padding-bottom: 115%;
   }
-
-
-
-  }
+  
+  
+  
+}
 
 
 
