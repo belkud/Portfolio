@@ -617,6 +617,9 @@ z-index: 1;
     width: 100%;
     font-size: 0.6em;
   }
+  .wrapper_header_abbreviation {
+    padding-top: 350px;
+  }
   .myPhoto {
     width: 50%;
     border: 8px solid aliceblue;
@@ -641,6 +644,10 @@ z-index: 1;
     font-size: 0.6em;
     /* padding-bottom: 20%; */
   } 
+
+  .wrapper_header_abbreviation {
+    padding-top: 350px;
+  }
   .portPhoto {
     margin-left: 20%;
   }
