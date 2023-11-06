@@ -570,7 +570,7 @@ z-index: 1;
   #home {
     width: 100%;
     font-size: 0.77em;
-    padding-bottom: 35%;
+    padding-bottom: 45%;
   }
   
   .myPhoto {
@@ -675,11 +675,11 @@ padding-bottom: 50%;
   #home {
     width: 100%;
     font-size: 0.6em;
-    padding-bottom: 50px;
+    padding-bottom: 50%;
   } 
 
   .wrapper_header_abbreviation {
-    padding-top: 350px;
+    padding-top: 250px;
   }
   .portPhoto {
     margin-left: 20%;
