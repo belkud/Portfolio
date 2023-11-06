@@ -534,9 +534,9 @@ z-index: 1;
 
 
 
-/* #skills
-  #projects
-  #contacts  */
+
+  /* #projects */
+  /* #contacts   */
   
 @media screen and (max-width: 1300px) {
   #about {
@@ -585,9 +585,9 @@ z-index: 1;
   }
   
   .skills {
-    padding-bottom: 75%;
-    
+    padding-bottom: 30%; 
   }
+
 .content_skills {
   display: flex;
   flex-direction: row;
@@ -690,7 +690,7 @@ z-index: 1;
   .skills {
     display: flex;
     flex-direction: column;
-    padding-bottom: 59%;
+    padding-bottom: 75%;
     /* padding-bottom: 90%; */
   }
   #content_skills {
