@@ -114,19 +114,20 @@ margin-left: -20px;
   border-radius: 50%;
   border: 15px solid rgb(231, 228, 228);
 
+  /* vertical-align: middle; */
 }
 
 .portPhoto {
   /* display: flex; */
-  justify-content: center;
-/* border: 1px solid red; */
+  /* justify-content: center; */
+border: 1px solid red;
   width: 100%;
   min-width: 120px;
-  margin-top:-120px;
+  margin-top:-13%;
   text-align: center;
+  /* vertical-align: middle; */
   z-index: 1;
   position:absolute;
-  vertical-align: center;
   filter: grayscale(0.4);
 }
 
@@ -539,7 +540,12 @@ z-index: 1;
 
   
 @media screen and (max-width: 1200px) {
- 
+  .portPhoto {
+    /* margin-top:-150px;   */
+  }
+  .myPhoto {
+    border: 8px solid aliceblue(0, 255, 51);
+}
   }
   /* #home
   #about
@@ -559,7 +565,8 @@ z-index: 1;
   .myPhoto {
     width: 40%;
     border-radius: 50%;
-    border: 8px solid rgb(0, 255, 51);
+    border: 8px solid aliceblue(0, 255, 51);
+    margin-top:-8%;
 }
 
   header {
@@ -615,6 +622,7 @@ z-index: 1;
     width: 50%;
     border-radius: 50%;
     border: 8px solid aliceblue;
+    margin-top:-12%;
 }
 
 
