@@ -545,7 +545,7 @@ z-index: 1;
 
 @media screen and (max-width: 1000px) {
   #home {
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     width: 100%;
     font-size: 0.77em;
     padding-bottom: 30%;
