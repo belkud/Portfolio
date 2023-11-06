@@ -156,11 +156,13 @@ margin-left: -20px;
   height: 100vh;
 }
 .about_right {
+  border:  1px solid red;
   color: white;
   padding-left: 10%;
   font-size: 1.1em;
   flex-direction: column;
   flex: 2;
+  height: 100vh;
 }
 
 .about_right >div {
@@ -639,6 +641,13 @@ z-index: 1;
   .portPhoto {
     margin-left: 20%;
   }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
   }
 
 
