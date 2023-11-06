@@ -585,7 +585,7 @@ z-index: 1;
   }
   
   .skills {
-    padding-bottom: 0%;
+    padding-bottom: 75%;
     
   }
 .content_skills {
@@ -648,7 +648,7 @@ z-index: 1;
   padding-bottom: 85%;
 }
 .skills {
-  padding-bottom: 55%;
+  padding-bottom: 60%;
 }
 /* .battery_position   */
 .content_skills {
@@ -690,7 +690,7 @@ z-index: 1;
   .skills {
     display: flex;
     flex-direction: column;
-    padding-bottom: 67%;
+    padding-bottom: 59%;
     /* padding-bottom: 90%; */
   }
   #content_skills {
