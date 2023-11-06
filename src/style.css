@@ -136,8 +136,7 @@ margin-left: -20px;
   height: 60vh;
   padding-top: 17%;
   display: flex;
-  flex-direction: row;
-
+  border: 2 px solid red !important;
 }
 
 .content_title {
@@ -547,7 +546,7 @@ z-index: 1;
     border: 8px solid aliceblue(0, 255, 51);
   }
   
-  #about {
+  .about {
     padding-bottom: 3%;
   }
 
@@ -557,7 +556,6 @@ z-index: 1;
 
 @media screen and (max-width: 1000px) {
   #home {
-    /* border: 3px solid yellow; */
     width: 100%;
     font-size: 0.77em;
     padding-bottom: 35%;
@@ -570,7 +568,7 @@ z-index: 1;
     margin-top:-8%;
   }
   
-  #about {
+  .about {
     padding-bottom: 35%;
   }
 
@@ -624,8 +622,8 @@ z-index: 1;
     margin-top:-12%;
 }
 
-#about {
-  padding-bottom: 35%;
+.about {
+  /* padding-bottom: 35%; */
 }
 
   }
