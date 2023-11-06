@@ -578,16 +578,11 @@ z-index: 1;
     padding-bottom: 68%;
   }
 
-  header {
+  .skills {
+    padding-bottom: 50%;
+  }
+
  
-  }
-
-
-
-
-  #skills {
-    min-height: 100vh;
-  }
   .content_skills {
     color: white;
     display: flex;
@@ -631,6 +626,11 @@ z-index: 1;
 .about {
   padding-bottom: 85%;
 }
+.skills {
+  padding-bottom: 82%;
+}
+
+
 
 }
 
@@ -649,7 +649,9 @@ z-index: 1;
     flex-direction: column;
     padding-bottom: 115%;
   }
-  
+  .skills {
+    padding-bottom: 90%;
+  }
   
   
 }
