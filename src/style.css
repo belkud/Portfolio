@@ -647,7 +647,13 @@ z-index: 1;
   .about {
     display: flex;
     flex-direction: column;
-    padding-bottom: 115%;
+    padding-bottom: 105%;
+  }
+  .about_left>h2 {
+    text-align: center;
+  }
+  .about_right {
+    padding-left: 0%;
   }
   .skills {
     padding-bottom: 90%;
