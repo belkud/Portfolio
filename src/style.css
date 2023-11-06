@@ -542,7 +542,7 @@ z-index: 1;
 
 @media screen and (max-width: 1000px) {
   #home {
-    border: 3px solid #d40f0f;
+    border: 3px solid goldenrod;
     width: 100%;
     font-size: 0.77em;
     
@@ -553,7 +553,7 @@ z-index: 1;
 
 
   #about {
-    min-height: 1200px;
+    /* min-height: 1200px; */
   }
 
 
@@ -593,7 +593,7 @@ z-index: 1;
   #home {
     width: 100%;
     font-size: 0.6em;
-    padding-bottom: 30%;
+    /* padding-bottom: 30%; */
     /* margin-bottom: 30%; */
   }
   }
@@ -601,7 +601,6 @@ z-index: 1;
   
 @media screen and (max-width: 460px) {
   #home {
-    border: 3px solid #d40f0f;
     width: 100%;
     font-size: 0.6em;
     /* padding-bottom: 20%; */
