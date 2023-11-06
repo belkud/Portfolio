@@ -107,6 +107,7 @@ margin-left: -20px;
 }
 
 .myPhoto{
+  margin: 0 auto;
   width: 25%;
   border-radius: 50%;
   border: 15px solid rgb(231, 228, 228);
@@ -545,6 +546,7 @@ z-index: 1;
     border: 3px solid white;
     width: 100%;
     font-size: 0.77em;
+    padding-bottom: 30%;
     
   }
   header {
@@ -599,7 +601,7 @@ z-index: 1;
   .myPhoto {
     width: 50%;
     border-radius: 50%;
-    border: 8px solid red;
+    border: 8px solid rgb(255, 255, 0);
 }
 
 
