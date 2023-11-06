@@ -531,7 +531,9 @@ z-index: 1;
 
 
 
-
+/* #skills
+  #projects
+  #contacts  */
   
 @media screen and (max-width: 1300px) {
   #about {
@@ -550,11 +552,8 @@ z-index: 1;
   }
 
 }
-  /* #home
-  #about
-  #skills
-  #projects
-  #contacts */
+  
+  
 
 @media screen and (max-width: 1000px) {
   #home {
@@ -562,18 +561,17 @@ z-index: 1;
     width: 100%;
     font-size: 0.77em;
     padding-bottom: 35%;
-    
   }
-
+  
   .myPhoto {
     width: 36%;
     border-radius: 50%;
     border: 6px solid aliceblue(0, 255, 51);
     margin-top:-8%;
-}
-
+  }
+  
   #about {
-    
+    padding-bottom: 35%;
   }
 
   header {
