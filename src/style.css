@@ -120,7 +120,7 @@ margin-left: -20px;
 .portPhoto {
   /* display: flex; */
   /* justify-content: center; */
-border: 1px solid red;
+/* border: 1px solid red; */
   width: 100%;
   min-width: 120px;
   margin-top:-13%;
@@ -546,7 +546,12 @@ z-index: 1;
   .myPhoto {
     border: 8px solid aliceblue(0, 255, 51);
 }
-  }
+
+#about {
+font-size: 0.9em;
+}
+
+}
   /* #home
   #about
   #skills
@@ -558,15 +563,19 @@ z-index: 1;
     /* border: 3px solid yellow; */
     width: 100%;
     font-size: 0.77em;
-    padding-bottom: 30%;
+    padding-bottom: 35%;
     
   }
 
   .myPhoto {
-    width: 40%;
+    width: 36%;
     border-radius: 50%;
-    border: 8px solid aliceblue(0, 255, 51);
+    border: 6px solid aliceblue(0, 255, 51);
     margin-top:-8%;
+}
+
+#about {
+  
 }
 
   header {
@@ -574,9 +583,6 @@ z-index: 1;
   }
 
 
-  #about {
-    /* min-height: 1200px; */
-  }
 
 
   #skills {
@@ -625,6 +631,9 @@ z-index: 1;
     margin-top:-12%;
 }
 
+#about {
+  padding-bottom: 35%;
+}
 
   }
 
