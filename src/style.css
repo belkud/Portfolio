@@ -136,6 +136,7 @@ margin-left: -20px;
   height: 60vh;
   padding-top: 17%;
   display: flex;
+  border-bottom: 3px solid aliceblue;
   /* border: 2 px solid red !important; */
 }
 
@@ -554,6 +555,11 @@ z-index: 1;
   .about {
     padding-bottom: 3%;
   }
+  /* .content_skills {
+    margin-left: 100px !important;
+    margin-right: 0px !important;
+gap: 100px;
+  } */
 
 }
   
@@ -581,13 +587,29 @@ z-index: 1;
   .skills {
     padding-bottom: 50%;
   }
+.content_skills {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+
+  .battery_position {
+    justify-content: flex-start;
+    max-width: 350px;
+  }
+
+
+  /* .content_skills {
+    margin-left: 0px;
+    margin-right: 0px;
+
+  } */
 
  
-  .content_skills {
-    color: white;
-    display: flex;
-    flex-direction: column;
-  }
+
   
 
  #projects {
@@ -625,14 +647,60 @@ z-index: 1;
     border: 8px solid aliceblue;
     margin-top:-12%;
 }
-
 .about {
   padding-bottom: 85%;
 }
 .skills {
   padding-bottom: 82%;
 }
-
+ {
+    width: 99%;
+    justify-content: flex-start;
+    max-width: 350px;
+}
+<style>
+.battery_position {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 1.4em;
+    /* font-weight: 500; */
+    gap: 30px;
+    position: relative;
+    padding-top: 20px;
+    /* border: 2px solid red; */
+}
+user agent stylesheet
+div {
+    display: block;
+}
+<style>
+.content_skills {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 50px; */
+    /* text-align: center; */
+    margin-top: 20px;
+}
+<style>
+.skills {
+    height: 100vh;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fon-dlya-prezentatsii-programmirovanie-76.jpg);
+    /* color: rgb(19, 2, 88) !important; */
+    text-shadow: 0px 0px 15px white;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: black; */
+    height: 100vh;
+    filter: grayscale(50%);
+}
+.content_skills {
+  border: 2px solid red;
+ 
+  
+}
 
 
 }
@@ -642,7 +710,7 @@ z-index: 1;
   #home {
     width: 100%;
     font-size: 0.6em;
-    /* padding-bottom: 20%; */
+    padding-bottom: 50px;
   } 
 
   .wrapper_header_abbreviation {
@@ -657,7 +725,8 @@ z-index: 1;
     padding-bottom: 105%;
   }
   .about_left>h2 {
-    text-align: center;
+    /* text-align: center; */
+    /* padding-left: 30%; */
   }
   .about_right {
     padding-left: 0%;
