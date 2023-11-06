@@ -146,20 +146,22 @@ margin-left: -20px;
   /* margin: -10px 50px; */
 }
 .about_left {
+  border:  1px solid red;
   color: white;
   padding-left: 8%;
   font-size: 1.3em;
   line-height: 1.5em;
   text-indent:1.2em;
-  border:  1px solid red;
   flex: 2;
   height: 100vh;
 }
 .about_right {
   border:  1px solid red;
   color: white;
-  padding-left: 10%;
-  font-size: 1.1em;
+  padding-left: 8%;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-indent:1.2em;
   flex-direction: column;
   flex: 2;
   height: 100vh;
@@ -572,7 +574,8 @@ z-index: 1;
   }
   
   .about {
-    padding-bottom: 35%;
+    font-size: 0.8em;
+    padding-bottom: 45%;
   }
 
   header {
