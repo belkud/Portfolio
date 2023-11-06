@@ -114,7 +114,8 @@ margin-left: -20px;
 }
 
 .portPhoto {
-  /* display: flex; */
+  display: flex;
+  justify-content: center;
 border: 1px solid red;
   width: 100%;
   min-width: 120px;
