@@ -601,23 +601,30 @@ z-index: 1;
     max-width: 350px;
   }
 
-.skills_title {
-  /* padding-top: 50px; */
-}
-
  
 
-  
+ .projects {
+padding-bottom: 50%;
+}
 
- #projects {
-  min-height: 100vh;
+.projects_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid red;
+  padding-left: 18%;
  }
+
+
+
  .projects_content>div {
+  border: 2px solid blue !important;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   /* border: 2px solid red; */
   margin-top: 50px;
+  width: 300px;
 }
 
 
