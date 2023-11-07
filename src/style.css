@@ -191,7 +191,6 @@ color: aqua;
 
 
 .skills {
-  height: 100vh;
   background-image: 
 url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fon-dlya-prezentatsii-programmirovanie-76.jpg);
 /* url(https://www.youtube.com/watch?v=Qm-5u8e4Ct0); */
@@ -200,11 +199,12 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   background-size:cover;
   background-attachment: fixed;
   /* background-color:black; */
-  height: 100vh;
+  height: 100%;
   filter: grayscale(50%);
   border-bottom: 3px solid white;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .inside_flex {
@@ -594,6 +594,9 @@ z-index: 1;
   /* margin-left: 10% !important; */
   /* margin-right: 3% !important; */
 }
+.content_title {
+  font-size: 2.0em;
+}
 
 
   .battery_position {
@@ -656,24 +659,34 @@ z-index: 1;
   font-size: 0.9em !important;
   /* margin-top: 3%; */
 }
-
-
-
+.content_title {
+  font-size: 1.6em;
+}
+.skills_title {
+  font-size: 1.8em;
+}
+.skills_title2 {
+  /* padding-left: 1%; */
+  /* font-size: 1.8em; */
+}
 
 .skills {
  
 }
-/* .battery_position   */
+
 .content_skills {
   display: flex;
   flex-direction: column;
-  /* margin-left: 10% !important; */
-  /* margin-right: 3% !important; */
+  align-items: center;
+  /* border: 2px solid red; */
+ 
 }
 .projects {
   /* padding-bottom: 75%; */
   }
 }
+
+
 
 
 @media screen and (max-width: 460px) {
@@ -708,11 +721,12 @@ z-index: 1;
   .skills {
     display: flex;
     flex-direction: column;
-    height: 185vh;
   }
   #content_skills {
     display: flex;
     flex-direction: column;
+    align-items: baseline;
+
   }
   
   
