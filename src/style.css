@@ -125,13 +125,10 @@ margin-left: -20px;
 .portPhoto {
   display: flex;
   justify-content: center;
-/* border: 1px solid red; */
   width: 100%;
   margin-top: -14%;
   min-width: 120px;
-  /* margin-top:-13%; */
-  text-align: center;
-  /* vertical-align: middle; */
+  /* text-align: center; */
   z-index: 1;
   position:absolute;
   filter: grayscale(0.4);
@@ -139,11 +136,10 @@ margin-left: -20px;
 
 .about {
   background: linear-gradient(to bottom right,black, lightblue);
-  height: 60vh;
   padding-top: 17%;
   display: flex;
   border-bottom: 3px solid lightgray;
-  /* border: 2 px solid red !important; */
+  width: 100%;
 }
 
 .content_title {
@@ -153,15 +149,24 @@ margin-left: -20px;
   /* margin: -10px 50px; */
 }
 .about_left {
-  /* border:  1px solid red; */
+  display: flex;
+  flex-direction: column;
   color: white;
   /* padding-left: 8%; */
   font-size: 1.3em;
   line-height: 1.5em;
   text-indent:1.2em;
   flex: 2;
-  height: 100vh;
+  justify-content: flex-end;
+  /* min-height: 120%; */
 }
+.sdf {
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
 .about_right {
   /* border:  1px solid red; */
   color: white;
