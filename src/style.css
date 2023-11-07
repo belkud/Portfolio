@@ -444,7 +444,7 @@ z-index: 1;
 }
 
 .projects {
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(to bottom right,black, lightblue);
   color: rgb(150, 138, 197);
   text-shadow: 0px 0px 5px rgb(175, 219, 219);
@@ -614,6 +614,7 @@ z-index: 1;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 100vh;
   /* padding-left: 18%; */
  }
 
@@ -622,6 +623,7 @@ z-index: 1;
  .projects_content>div {
   border: 2px solid greenyellow;
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
   /* border: 2px solid red; */
