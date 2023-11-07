@@ -614,7 +614,7 @@ z-index: 1;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   /* padding-left: 18%; */
  }
 
@@ -729,6 +729,20 @@ z-index: 1;
     flex-direction: column;
     align-items: baseline;
 
+  }
+  .projects_content {
+    flex-wrap: wrap;
+  }
+  .projects_content>div {
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    width: 300px;
+    gap: 100px;
   }
   
   
