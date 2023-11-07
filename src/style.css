@@ -158,7 +158,7 @@ margin-left: -20px;
   text-indent:1.2em;
   flex: 2;
   justify-content: flex-end;
-  /* min-height: 120%; */
+  height: 100%;
 }
 .sdf {
   
