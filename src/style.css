@@ -6,14 +6,9 @@ html {
 
 
 
-
-
-
-
 body {
   margin: 0px;
   padding: 0px;
-  /* display: flex; */
   align-items: center;
   min-height: 100vh;
   background-attachment:fixed;
@@ -22,7 +17,6 @@ body {
   /* url('https://s1.1zoom.ru/big0/430/Laptops_Smartphone_Notebooks_Table_568319_1280x853.jpg'); */
   /* url('https://static.giga.de/wp-content/gallery/hp-spectre-13-2016/hp-spectre-13-01.jpg'); */
   background-size:cover;
-  /* width: auto; */
 }
 
 
@@ -30,11 +24,8 @@ body {
 
 
 .container {
-  /* position:sticky; */
   width: 100%;
   height: 100%;
-
-  /* display: flex; */
   flex-direction: column;
 }
 header {
@@ -80,7 +71,6 @@ a:hover {
   justify-content: center;
   flex-direction: column;
   min-height: 700px;
-  /* margin-left:-5%; */
 }
 .wrapper_header_abbreviation{
   color:white;
@@ -91,11 +81,8 @@ a:hover {
   display: flex !important;
   justify-content: center !important;
 }
-.wrapper_header_up {
-  /* color: aqua; */
-}
+
 .wrapper_header_down {
-  /* color: green; */
 margin-top: 25px;
 margin-left: -20px;
 }
@@ -129,7 +116,6 @@ margin-left: -20px;
   width: 100%;
   margin-top: -14%;
   min-width: 120px;
-  /* text-align: center; */
   z-index: 1;
   position:absolute;
   filter: grayscale(0.4);
@@ -147,8 +133,8 @@ margin-left: -20px;
   color: rgb(19, 2, 88);
   text-shadow: 0px 0px 15px white;
   font-size: 2.5em;
-  /* margin: -10px 50px; */
 }
+
 .about_left, .about_right {
   display: flex;
   flex-direction: column;
@@ -157,7 +143,6 @@ margin-left: -20px;
   line-height: 1.5em;
   text-indent:1.2em;
   flex: 2;
-  /* justify-content: flex-end; */
   height: 100%;
   margin: 20px;
   gap: 25px;
@@ -165,20 +150,8 @@ margin-left: -20px;
  
  
 .about_right >div {
-  /* padding: 5px 20px; */
   font-size: 1.2em;
 }
-
-/* .content_link {
-color: aqua;
-} */
-
-
-/* .logo {
-  width: 25%;
-  border: 1px solid red;
-  background-color:opacity;
-} */
 
 
 .btn {
@@ -194,11 +167,9 @@ color: aqua;
   background-image: 
 url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fon-dlya-prezentatsii-programmirovanie-76.jpg);
 /* url(https://www.youtube.com/watch?v=Qm-5u8e4Ct0); */
-  /* color: rgb(19, 2, 88) !important; */
   text-shadow: 0px 0px 15px white;
   background-size:cover;
   background-attachment: fixed;
-  /* background-color:black; */
   height: 100%;
   filter: grayscale(50%);
   border-bottom: 3px solid white;
@@ -226,11 +197,9 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   align-items: center;
   color: white;
   font-size: 1.4em;
-  /* font-weight:500; */
   gap: 30px;
   position: relative;
   padding-top: 20px;
-  /* border: 2px solid red; */
 }
 
 .battery_position img {
@@ -268,20 +237,16 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
   from{
     margin-left: -50px;
     opacity:0
-    /* width: 0; */
   }
   to {
     opacity: 1;
-    /* min-height: 61px !important; */
   }
 }
 
 
 
 .battery::after {
-  /* box-shadow: 0px 0px 20px aqua; */
   content: '';
-  /* background-color: rgb(134, 164, 174); */
   padding: 3px;
   position: absolute;
   margin-left: 100%;
@@ -302,7 +267,6 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
 
 .skills_title {
   color: rgb(246, 244, 244);
-  /* color: rgb(19, 2, 88); */
   margin: 0;
   text-align: center;
   font-size: 2em;
@@ -344,12 +308,11 @@ text-align: center;
 
 
 .contacts {
-  height: 100vh;
+  height: 100%;
   width:100%;
   overflow: hidden;
   display: flex;
   filter: grayscale(0.8);
-  /* text-align: center; */
   color: white;
   font-size:  1.3em;
   justify-content: center;
@@ -378,7 +341,6 @@ z-index: 1;
 
 .contacts_container>h5 {
   margin: 50px;
-  /* border: 2px solid red; */
   text-align: center;
   font-size: 1.3em;
 }
@@ -408,7 +370,6 @@ z-index: 1;
   flex: 3;
   display: flex;
   flex-direction: column;
-  /* color: white; */
 }
 
 .content_right>div {
@@ -449,7 +410,6 @@ z-index: 1;
   color: rgb(150, 138, 197);
   text-shadow: 0px 0px 5px rgb(175, 219, 219);
   border-bottom: 3px solid lightgray;
-  
 }
 
 .projects>h1 {
@@ -469,12 +429,10 @@ z-index: 1;
 .projects_content>div {
   display: flex;
   justify-content: space-evenly;
-  /* border: 2px solid red; */
   margin-top: 50px;
   
 }
 .projects_box {
- 
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -490,8 +448,7 @@ z-index: 1;
 .project_design {
   height: 140px;
   width: 140px;
-  background-image:url(adaptiv.png)  ;
-  /* background-position: 10% 10%; */
+  background-image:url(adaptiv.png);
   background-size: 142px 120px;
   background-repeat:no-repeat; 
 }
@@ -507,7 +464,6 @@ z-index: 1;
   width: 120px;
 }
 .project_ball>img:hover {
-  /* box-shadow: 5px 5px 5px lightblue; */
   rotate: 360deg;
   transition: 3s;
 }
@@ -530,34 +486,23 @@ z-index: 1;
 }
 
 
-
-
-  /* #projects */
-  /* #contacts   */
   
 @media screen and (max-width: 1300px) {
   #about {
     font-size: 0.9em;
-  }
-  
+  }  
 }
+
+
 
 @media screen and (max-width: 1200px) {
   .myPhoto {
     border: 8px solid aliceblue(0, 255, 51);
   }
-  
-  .about {
-    /* padding-bottom: 3%; */
-  }
-
+ 
   .content_skills {
     display: flex;
-    /* flex-direction: row; */
-    /* margin-left: 10% !important; */
-    /* margin-right: 3% !important; */
   }
-
 }
   
   
@@ -566,7 +511,6 @@ z-index: 1;
   #home {
     width: 100%;
     font-size: 0.77em;
-    /* padding-bottom: 45%; */
   }
   
   .myPhoto {
@@ -578,7 +522,6 @@ z-index: 1;
   
   .about {
     font-size: 0.8em;
-    /* padding-bottom: 68%; */
   }
   
   .skills_title, .projects>h1 {
@@ -594,24 +537,15 @@ z-index: 1;
 .content_skills {
   display: flex;
   flex-direction: row;
-  /* margin-left: 10% !important; */
-  /* margin-right: 3% !important; */
 }
 .content_title {
   font-size: 2.0em;
 }
 
-
   .battery_position {
     justify-content: center;
     max-width: 350px;
   }
-
- 
-
- .projects {
-/* padding-bottom: 50%; */
-}
 
 .projects_content {
   display: flex;
@@ -621,39 +555,33 @@ z-index: 1;
   margin-top: -120px;
  }
 
-
-
  .projects_content>div {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  /* border: 2px solid red; */
   margin-top: 50px;
   width: 300px;
   gap: 100px;
 }
-
-
 .contacts {
-  /* border: 10px solid red; */
   min-height: 100%;
   font-size: 1.1em;
 }
-
-
-  }
+.navbar_buttons {
+  /* gap: 25px; */
+}
+}
 
 
 
 @media screen and (max-width: 768px) {
-  #home {
-    width: 100%;
-    font-size: 0.6em;
-  }
-  .wrapper_header_abbreviation {
-  }
-  .myPhoto {
+ #home {
+  width: 100%;
+  font-size: 0.6em;
+}
+ 
+.myPhoto {
     width: 40%;
     border: 8px solid aliceblue;
     margin-top:-12%;
@@ -662,27 +590,15 @@ z-index: 1;
   display: flex;
   flex-direction: column;
   font-size: 0.9em !important;
-  /* margin-top: 3%; */
 }
 .content_title {
   font-size: 1.6em;
 }
-
-
-.skills {
- 
-}
-
 .content_skills {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 2px solid red; */
- 
 }
-.projects {
-  /* padding-bottom: 75%; */
-  }
 }
 
 
@@ -690,33 +606,19 @@ z-index: 1;
 
 @media screen and (max-width: 460px) {
   #home {
-    /* width: 100%; */
     font-size: 0.6em;
     margin: auto;
     min-height: 100vh;
-  
     display: flex;
     text-align: center;
     align-items: center;
-    /* margin:0 auto; */
   } 
 
-  .wrapper_header_abbreviation {
-  }
-  .portPhoto {
-    /* margin-left: 20%; */
-  }
   .about {
     display: flex;
-    /* flex-direction: column; */
+
   }
-   .about_left {
-    /* color: aqua !important; */
-  }
-  .about_right {
-    /* padding-left: 10%; */
-  }
-  
+ 
   .skills {
     display: flex;
     flex-direction: column;
@@ -731,7 +633,6 @@ z-index: 1;
     flex-wrap: wrap;
   }
   .projects_content>div {
-    border: 2px solid blue;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -740,12 +641,14 @@ z-index: 1;
     width: 300px;
     gap: 0px;
   }
-  
+  .projects_content_right {
+    margin-top: 10px !important;
+  }
+
   .navbar_buttons {
     border: 2px solid red;
     display: none !important;
   }
-  
 }
 
 
