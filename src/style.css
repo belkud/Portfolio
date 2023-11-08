@@ -399,7 +399,7 @@ z-index: 1;
   margin-top: 50px;
   box-shadow: 0px 0px 10px white;
 }
-.button_send:hover {
+.button_send:active {
   background-color: black;
   transition: .5s;
   box-shadow: 0px 0px 20px white;
@@ -464,7 +464,7 @@ z-index: 1;
   border-radius: 50%;
   width: 120px;
 }
-.project_ball>img:hover {
+.project_ball>img:active {
   rotate: 360deg;
   transition: 3s;
 }
