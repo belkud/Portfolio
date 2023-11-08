@@ -401,6 +401,7 @@ z-index: 1;
   width: 120px;
   margin-top: 50px;
   box-shadow: 0px 0px 10px white;
+  transition: .5s;
 }
 .button_send:active {
   background-color: black;
