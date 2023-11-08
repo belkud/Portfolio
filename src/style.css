@@ -494,7 +494,7 @@ z-index: 1;
   display: none;
   width: 100px;
   height: 38px;
-  background-color: red;
+  /* background-color: red; */
   text-align: center;
   margin: 0px;
   padding: 0px;
