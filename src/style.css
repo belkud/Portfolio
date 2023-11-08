@@ -554,6 +554,9 @@ z-index: 1;
     justify-content: center;
     max-width: 350px;
   }
+  .digitals {
+    margin-left: 15px;
+  }
 
 .projects_content {
   display: flex;
