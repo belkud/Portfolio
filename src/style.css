@@ -57,7 +57,9 @@ a {
 a:hover {
   color:lightgrey;
   transition: 1s;
-  text-shadow: 0px 0px 10px white;
+  text-shadow: 0px 0px 20px white;
+  /* background: rgb(255, 0, 0, .5); */
+  /* padding: 9px auto; */
 }
 
 
