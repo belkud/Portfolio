@@ -37,7 +37,7 @@ const carBlock = document.querySelector('#carBlock') as HTMLDivElement
 const car = document.querySelector('#car') as HTMLImageElement
 const car2 = document.querySelector('#car2') as HTMLImageElement
 carBlock.addEventListener('mousemove', ()=> {
-  car.style.filter = `drop-shadow(10px 10px 2px black)`
+  car.style.filter = `drop-shadow(10px 10px 2px rgb(57, 85, 85))`
   car.style.transition = .3 + 's'
 })
 

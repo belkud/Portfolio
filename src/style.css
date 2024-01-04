@@ -474,7 +474,7 @@ z-index: 1;
 }
 
 .project_design:hover {
-  filter: drop-shadow(5px 5px 3px black);
+  filter: drop-shadow(5px 5px 3px gray);
   transition: .5s;
 
 }
