@@ -287,6 +287,17 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
 text-align: center;
 }
 
+
+#car, #car2 {
+  width: 90px !important;
+}
+#car2 {
+  position: absolute;
+  /* left: 14.3%; */
+  margin-top: -15.97%;
+  display: none;
+}
+
 #planet {
   box-shadow: 0px 0px 25px rgb(180, 245, 245);
   border-radius: 50%;

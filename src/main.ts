@@ -31,3 +31,12 @@ const observer = new IntersectionObserver((entries, observer)=>{
 },options)
 
 battery.forEach((el)=>observer.observe(el))
+
+
+const car2 = document.querySelector('#car2') as HTMLImageElement
+setInterval(()=> {
+car2.style.display = 'block'
+},1000)
+setInterval(()=> {
+car2.style.display = 'none'
+},2000)
