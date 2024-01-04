@@ -435,8 +435,8 @@ z-index: 1;
 
 .projects {
   height: 100%;
-  background: linear-gradient(to bottom right,black, lightblue);
-  /* background: linear-gradient(to bottom right,rgb(9, 9, 9) 30%, rgb(6, 94, 123)); */
+  /* background: linear-gradient(to bottom right,black, lightblue); */
+  background: linear-gradient(to bottom right,rgb(9, 9, 9) 30%, rgb(6, 94, 123));
   color: rgb(150, 138, 197);
   text-shadow: 0px 0px 5px rgb(175, 219, 219);
   border-bottom: 3px solid lightgray;
