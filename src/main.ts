@@ -45,7 +45,6 @@ carBlock.addEventListener('mouseout', ()=> {
   car.style.filter = ''
 })
 
-
 setInterval(()=> {
 car2.style.opacity = '0'
 },1000)

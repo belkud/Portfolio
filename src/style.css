@@ -477,7 +477,7 @@ z-index: 1;
 .project_design {
   height: 140px;
   width: 140px;
-  background-image:url(adaptiv.png);
+  background-image:url(public/adaptiv.png);
   background-size: 142px 120px;
   background-repeat:no-repeat; 
   
