@@ -293,21 +293,10 @@ text-align: center;
   width: 90px !important;
   position: absolute;
 }
-#car {
-  
-  /* filter: drop-shadow(10px 10px 2px black) */
-  /* brightness(.5); */
+#fireball {
+  filter: drop-shadow(0px 0px 20px rgb(87, 85, 85));
 }
-/* #car2 {
-  position: absolute;
-  left: 14.3%;
-  margin-top: -15.97%;
-  display: none;
-} */
-/* #car:hover, #car:active, #car2:hover, #car2:active {
-  filter: drop-shadow(10px 10px 2px black);
-  transition: .5s;
-} */
+ 
 
 #planet {
   box-shadow: 0px 0px 25px rgb(180, 245, 245);
