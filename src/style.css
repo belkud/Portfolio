@@ -511,10 +511,24 @@ z-index: 1;
 
 .project_ball>img {
   border-radius: 50%;
+  animation: rotateBall 25s linear   infinite ;
   width: 120px;
-  rotate: 1800deg;
-  transition: 150s;
 }
+
+
+
+ @keyframes rotateBall {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+  
+ }
+
+
+
 .project_ball>img:active, .project_ball>img:hover {
   filter: drop-shadow(0px 0px 10px aqua);
   transition: .3s;
