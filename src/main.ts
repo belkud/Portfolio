@@ -24,7 +24,7 @@ const digitals = document.querySelectorAll ('.digitals') as NodeListOf<HTMLDivEl
 // console.log(battery);
 // console.log(digitals[0].innerHTML);
 
-let moveDigitals = [15, 75, 45, 45, 55, 75, 45, 5]
+let moveDigitals = [85, 75, 45, 45, 55, 75, 45, 15]
 let score = 0
 
 setInterval(()=> {
