@@ -27,16 +27,7 @@ const digitals = document.querySelectorAll ('.digitals') as NodeListOf<HTMLDivEl
 let moveDigitals = [85, 75, 45, 45, 55, 75, 45, 15]
 let score = 0
 
-setInterval(()=> {
-  score+=1
-for (let i = 0; i < moveDigitals.length; i++) {
-    digitals[i].innerHTML = `${score}`
-    let num = moveDigitals[i]
-        if (digitals[i].innerHTML > num) {
-          digitals[i].innerHTML= num
-        }
-  }
-},50)
+
 
 
 const observer = new IntersectionObserver((entries, observer)=>{
@@ -44,9 +35,23 @@ const observer = new IntersectionObserver((entries, observer)=>{
         if (entry.isIntersecting) {
             console.log(entry.target)
           entry.target.classList.add('anim')
-          digitals[0].innerHTML = `221`
           console.log(digitals[0].innerHTML);
           observer.unobserve(entry.target)
+
+
+          setInterval(()=> {
+            score+=1
+          for (let i = 0; i < moveDigitals.length; i++) {
+              digitals[i].innerHTML = `${Math.round(score/10)}`
+              let num = moveDigitals[i]
+                  if (digitals[i].innerHTML > num) {
+                    digitals[i].innerHTML= num
+                  }
+            }
+          },50)
+
+
+
         }
       })
 },options)
