@@ -56,11 +56,11 @@ const catLeg = document.querySelector('#catLeg') as HTMLImageElement
 setInterval(()=> {
   setTimeout (()=> {
     catLeg.style.rotate = 30 + 'deg'
-    catLeg.style.transition = .2 + 's'
+    catLeg.style.transition = .5 + 's'
   }, 500)
   setTimeout (()=> {
     catLeg.style.rotate = 0 + 'deg'
-    catLeg.style.transition = .2 + 's'
+    catLeg.style.transition = .5 + 's'
   }, 1000)
 }, 3000)
 
