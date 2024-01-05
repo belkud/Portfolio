@@ -63,3 +63,23 @@ setInterval(()=> {
     catLeg.style.transition = .2 + 's'
   }, 1000)
 }, 3000)
+
+
+// const catBox = document.querySelector ('#catBox') as HTMLDivElement
+// catBox.addEventListener('mousemove', ()=> {   })
+const eye = document.querySelector ('#eye') as HTMLImageElement
+setInterval(()=> {
+  setTimeout (()=> {
+    eye.style.marginTop = 20 + '%'
+    eye.style.opacity =  '1'
+    eye.style.transition = 0 + 's'
+  }, 500)
+  setTimeout (()=> {
+    eye.style.marginTop = 36 + '%'
+    eye.style.opacity =  '0'
+    eye.style.transition = 2 + 's'
+  }, 1000)
+}, 9000)
+
+ 
+

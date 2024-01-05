@@ -287,6 +287,10 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
 text-align: center;
 }
 
+#catBox {
+  filter: drop-shadow(0px 0px 3px aliceblue);
+}
+
 #catLeg {
   width: 75px;
   position: absolute;
@@ -298,9 +302,10 @@ text-align: center;
 #eye {
   position: absolute;
   width: 20px;
-  margin-top: 22%;
+  margin-top: 20%;
   margin-left: -19.5%;
   z-index: 5;
+  opacity: 0;
 }
 
 #car, #car2 {
