@@ -315,7 +315,11 @@ text-align: center;
 #fireball {
   filter: drop-shadow(0px 0px 20px rgb(87, 85, 85));
 }
- 
+
+#nodeServer {
+  width: 200px;
+  filter: drop-shadow(0px 0px 1px white);
+}
 
 #planet {
   box-shadow: 0px 0px 25px rgb(180, 245, 245);
@@ -512,10 +516,8 @@ z-index: 1;
   transition: 1500s;
 }
 .project_ball>img:active, .project_ball>img:hover {
-  rotate: 360deg;
   filter: drop-shadow(0px 0px 10px aqua);
-  /* box-shadow: ; */
-  transition: 3s;
+  transition: .3s;
 }
 
 .project_bootstrap>img {
@@ -528,7 +530,6 @@ z-index: 1;
 
 .project_design>img {
   width: 120px;
- 
 }
 
 
