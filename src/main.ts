@@ -51,3 +51,15 @@ car2.style.opacity = '0'
 setInterval(()=> {
 car2.style.opacity = '1'
 },2000)
+
+const catLeg = document.querySelector('#catLeg') as HTMLImageElement
+setInterval(()=> {
+  setTimeout (()=> {
+    catLeg.style.rotate = 30 + 'deg'
+    catLeg.style.transition = .2 + 's'
+  }, 500)
+  setTimeout (()=> {
+    catLeg.style.rotate = 0 + 'deg'
+    catLeg.style.transition = .2 + 's'
+  }, 1000)
+}, 3000)
