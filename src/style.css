@@ -225,6 +225,12 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
 .digitals {
   margin-top: 20px;
 }
+.digitals::after {
+content: '%';
+padding: 3px;
+margin-top: -3px;
+
+}
 
 .imgbattery {
   margin-top: 3px;
