@@ -173,9 +173,10 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
 /* url(https://www.youtube.com/watch?v=Qm-5u8e4Ct0); */
   text-shadow: 0px 0px 15px white;
   background-size:cover;
+  background: rgba(0, 0, 0, 0.6);
   background-attachment: fixed;
   /* background; */
-  height: 100vh;
+  height: 105vh;
   filter: grayscale(30%);
   border-bottom: 3px solid white;
   display: flex;
@@ -216,8 +217,6 @@ url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613680421_58-p-fo
 .battery {
   box-shadow: 0px 0px 20px aqua;
   position: relative;
-  /* background: linear-gradient(to top right,black, lightblue); */
-  /* background:url("Background_battery.png"); */
   border: aquamarine 1px solid;
   width: 249px;
   height: 32px;
