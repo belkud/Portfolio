@@ -41,7 +41,15 @@ header {
   padding: 10px 3%;
   color: rgb(150, 138, 197);
   text-shadow: 0px 0px 10px white;
+  transition: .5s;
+  
 }
+.navbar_first:hover {
+  font-size: 1.05em;
+  cursor: pointer;
+  color: rgb(209, 195, 251);
+}
+
 .navbar {
   margin: 0px;
   padding: 10px;
@@ -49,13 +57,13 @@ header {
   
 }
 
-a {
+.navbar a {
   scroll-behavior: smooth;
-  color: rgb(150, 138, 197);
   text-decoration: none;
   transition: .5s;
+  color: rgb(150, 138, 197);
 }
-a:hover {
+.navbar a:hover {
   color:lightgrey;
   text-shadow: 0px 0px 20px white;
   /* background: rgb(255, 0, 0, .5); */
@@ -358,7 +366,6 @@ text-align: center;
   width:100%;
   overflow: hidden;
   display: flex;
-  filter: grayscale(0.8);
   color: white;
   font-size:  1.3em;
   justify-content: center;
@@ -368,7 +375,14 @@ text-align: center;
 }
 
 
+
+.content_left img {
+  filter: grayscale(0) !important;
+}
+
+
 .contacts video {
+filter: grayscale(0.6);
 height: 100%;
 width: 100%;
 position: absolute;
