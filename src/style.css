@@ -53,10 +53,10 @@ a {
   scroll-behavior: smooth;
   color: rgb(150, 138, 197);
   text-decoration: none;
+  transition: .5s;
 }
 a:hover {
   color:lightgrey;
-  transition: 1s;
   text-shadow: 0px 0px 20px white;
   /* background: rgb(255, 0, 0, .5); */
   /* padding: 9px auto; */
@@ -108,7 +108,7 @@ margin-left: -20px;
 
   width: 25%;
   border-radius: 50%;
-  border: 15px solid rgb(231, 228, 228);
+  border: 5px solid rgb(231, 228, 228);
   display: flex;
   
 }
@@ -121,7 +121,7 @@ margin-left: -20px;
   min-width: 120px;
   z-index: 1;
   position:absolute;
-  filter: grayscale(0.4);
+  /* filter: grayscale(0.4); */
 }
 
 .about {
@@ -481,6 +481,12 @@ z-index: 1;
   margin-top: 50px;
   
 }
+
+/* .projects_content>div>div { */
+  /* border: 1px solid wheat; */
+  /* cursor: pointer; */
+/* } */
+
 .projects_box {
   display: flex;
   flex-direction: column;
@@ -491,20 +497,24 @@ z-index: 1;
   align-items: center;
   gap: 10px;
   padding: 20px;
+  /* border: 1px solid white; */
   
 }
   
 .project_design {
   height: 140px;
   width: 140px;
-  background-image:url(adaptiv.png);
-  background-size: 142px 120px;
+  background-image:url(public/top_logo.png);
+  /* background-image:url(adaptiv.png); */
+  background-size: 152px 80px;
+  filter: drop-shadow(0px 0px 3px white);
+  background-position: 0px 50px;
   background-repeat:no-repeat; 
-  
+  /* border: 1px solid white; */
 }
 
 .project_design:hover {
-  filter: drop-shadow(5px 5px 3px gray);
+  filter: drop-shadow(0px 0px 4px white);
   transition: .5s;
 
 }
@@ -534,6 +544,13 @@ z-index: 1;
   
  }
 
+#workInAcademy {
+  margin-top: -50px;
+}
+
+#workInAcademy2 {
+  margin-top: 0px;
+}
 
 
 .project_ball>img:active, .project_ball>img:hover {
@@ -543,10 +560,10 @@ z-index: 1;
 
 .project_bootstrap>img {
   width: 120px;
+  transition: .5s;
 }
 .project_bootstrap>img:hover {
   filter: drop-shadow(3px 3px 2px aqua);
-  transition: .5s;
 }
 
 .project_design>img {
@@ -614,6 +631,8 @@ ul:hover li{
   .battery_position {
     margin-top: 0px;
   }
+  
+
 }
   
   
@@ -623,10 +642,9 @@ ul:hover li{
     width: 100%;
     font-size: 0.77em;
   }
-  
+
   .myPhoto {
     width: 36%;
-    border-radius: 50%;
     border: 6px solid aliceblue(0, 255, 51);
     margin-top:-8%;
   }
@@ -653,6 +671,9 @@ ul:hover li{
   font-size: 2.0em;
 }
 
+#workInAcademy {
+  margin-top: 0px;
+}
   .battery_position {
     justify-content: center;
     max-width: 350px;
@@ -711,6 +732,7 @@ ul:hover li{
   flex-direction: column;
   align-items: center;
 }
+
 }
 
 
