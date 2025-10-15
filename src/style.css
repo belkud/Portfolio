@@ -133,7 +133,7 @@ margin-left: -20px;
 }
 
 .about {
-  background: linear-gradient(to bottom right,black, lightblue);
+   background: linear-gradient(to bottom right,rgb(9, 9, 9) 30%, rgb(6, 94, 123));
   padding-top: 13%;
   display: flex;
   border-bottom: 3px solid lightgray;
@@ -522,7 +522,7 @@ z-index: 1;
 .project_design {
   height: 140px;
   width: 140px;
-  background-image:url(./public/top_logo.png);
+  background-image:url(top_logo.png);
   /* background-image:url(adaptiv.png); */
   background-size: 152px 80px;
   filter: drop-shadow(0px 0px 3px white);
