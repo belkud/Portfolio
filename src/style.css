@@ -820,8 +820,7 @@ margin-bottom: 30px;
     gap: 0px;
   }
   .projects_content_right {
-    margin-top: 10px !important;
-    border: 1px solid wheat !important;
+    margin-top: -20px !important;
   }
 
   .navbar_buttons {
