@@ -589,6 +589,7 @@ z-index: 1;
 }
 
 
+
 .project_site {
   width: 100px;
   height: 100px;
@@ -619,6 +620,21 @@ ul:hover li{
   /* display: block; */
   transition: 3s;
 }
+
+#container_with_contact {
+margin-bottom: 30px;
+}
+
+.content_left img {
+    /* border: 1px solid white; */
+    position: absolute;
+    transition: .5s;
+    padding-bottom: 5px;
+}
+.content_left img:hover {
+  margin-top: -10px;
+}
+
 
   
 @media screen and (max-width: 1300px) {
