@@ -109,7 +109,7 @@ setInterval(()=> {
 
 let video = document.querySelector('#video') as HTMLVideoElement
 
-setTimeout(() => {
-  video.src = './public/coverr-top-view-of-a-working-girl-4719-1080p.mp4'
-}, 1000);
+// setTimeout(() => {
+//   video.src = './public/coverr-top-view-of-a-working-girl-4719-1080p.mp4'
+// }, 1000);
 

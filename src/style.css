@@ -617,7 +617,6 @@ li {
 }
 ul:hover li{
   opacity: 1;
-  /* display: block; */
   transition: 3s;
 }
 
@@ -626,13 +625,21 @@ margin-bottom: 30px;
 }
 
 .content_left img {
-    /* border: 1px solid white; */
     position: absolute;
     transition: .5s;
     padding-bottom: 5px;
+  }
+  .content_left img:hover {
+  animation: animContact .5s;
+  /* margin-top: -10px; */
 }
-.content_left img:hover {
-  margin-top: -10px;
+@keyframes animContact {
+    50% {
+      margin-top: -16px;
+  }
+    100% {
+      margin-top: 0px;
+  }
 }
 
 
