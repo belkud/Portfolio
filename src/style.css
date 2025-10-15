@@ -138,7 +138,7 @@ margin-left: -20px;
   display: flex;
   border-bottom: 3px solid lightgray;
   width: 100%;
-  height: 75vh;
+  height: 100vh;
 }
 
 .content_title {
@@ -628,11 +628,13 @@ margin-bottom: 30px;
     position: absolute;
     transition: .5s;
     padding-bottom: 5px;
-  }
-  .content_left img:hover {
-  animation: animContact .5s;
-  /* margin-top: -10px; */
+    padding-bottom: 20px;
 }
+
+.content_left img:hover {
+  animation: animContact .5s;
+}
+
 @keyframes animContact {
     50% {
       margin-top: -16px;
